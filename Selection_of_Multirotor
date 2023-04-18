@@ -1,1 +1,9 @@
+1.	Launch the visual studio project -> when unreal engine pops up, Select Game Mode as ‘AirSimGameMode’.
 
+2.	Hit the play button. By default, the SimMode is “ ”. Which lead to a pop up to choose vehicle type. 
+
+3.	The first thing that executes when we start simulation is settings.json file. This file has all the default
+    value to the constraints like vehicle type, clock speed, wind etc. The default vehicle type is ‘SimpleFlight’.
+    
+    The same can be seen in the plugins folder under sources. Now we know the default vehicle type is SimpleFlight. 
+    We can now check the default parameters of the multirotor. 
